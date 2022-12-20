@@ -1,0 +1,42 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "alpha_dither": false,
+                    "alpha_threshold": 0.33000001311302185,
+                    "ao_intensity": 0.7400000095367432,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 64
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 32,
+                    "minPOMSamples": 16,
+                    "pomStrength": 1.559999942779541,
+                    "usePOM": true
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-test",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "T_FoodA_01": {
+            "shader": "Main shader"
+        }
+    }
+}
