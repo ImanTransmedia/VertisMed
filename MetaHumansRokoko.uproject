@@ -39,7 +39,7 @@
 		},
 		{
 			"Name": "Draper",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "MovieRenderPipeline",
